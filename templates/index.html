@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mutant Portfolio Template"/>
+    <meta name="author" content="Ashiqur Rahman Tusher">
+    <!-- ============== Title Of Website ============== -->
+    <title>Ashiqur Tusher</title>
+    <!-- ============== Favicon Icon ============== -->
+    <link rel="icon" type="image/png" href="  {{ url_for('static', filename='image/favicon/favicon.png')}}">
+    <!-- ============== Bootstrap & Fontawesome Files ============== -->
+    <link href=" {{ url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css')}} ">
+    <!-- ============== Plugins ============== -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/hover.css')}}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/loaders.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/text-animation.css')}}">
+    <!-- ============== Template Main Custom Stylesheets ============== -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}"/>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <!-- ============== Fonts ============== -->
+    <link href="https://fonts.googleapis.com/css?family=Asap:400,500,700%7CJosefin+Sans:400,600,700" rel="stylesheet">
+    <!-- ============== Mordenizr Script for Fallback Design  ============== -->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/modernizr-custom.js')}}"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="preloader">
+    <div class="loader">
+        <div class="loader-inner square-spin">
+            <div></div>
+        </div>
+    </div>
+</div>
+<div class="all-container">
+
+    <!-- =============================
+      1. Start Header
+    =============================== -->
+    <div class="header section" id="1">
+        <div id="particles-js"></div>
+        <div class="logo">
+            <img src="static/image/logo/logo.png" alt="Logo">
+        </div>
+        <div class="container-fluid">
+            <div class="row content">
+                <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 head-container">
+                    <div class="head-holder">
+                        <h1 class="introduction">I'm Ashiqur Tusher</h1>
+                        <div class="animated-text">
+                            <strong class="cd-headline clip">
+                                <span>Skilled in</span>
+                                <span class="cd-words-wrapper">
+                    <b class="is-visible">Python</b>
+                    <b>Javascript</b>
+                    <b>React.js</b><b>Web Design</b><b>Adobe Illustrator</b>
+                  </span>
+                            </strong>
+                        </div> <!-- animated-text -->
+                        <a class="hireMe" href="#">HIRE ME</a>
+                    </div><!-- /.head-holder -->
+                </div><!-- /.col-md-4 -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+        <div class="navigation-icon">
+            <input id="burger" type="checkbox"/>
+            <label for="burger" class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div><!-- /.navigation-icon -->
+        <div class="fullscreen-nav-container">
+            <div class="container-fluid">
+                <div class="full-nav-container row">
+                    <div class="full-nav-holder">
+                        <div class="full-nav-content">
+                            <div class="name">
+                                <div class="first-name">AR</div>
+                                <div class="last-name">Tusher</div>
+                                <div class="occupation">
+                    <span class="cd-headline clip">
+                        <span>Skilled in</span>
+                      <span class="cd-words-wrapper">
+                        <b class="is-visible">Python</b>
+                    <b>Javascript</b>
+                    <b>React.js</b><b>Web Design</b><b>Adobe Illustrator</b>
+                      </span>
+                    </span>
+                                </div>
+                            </div> <!-- name -->
+                            <div class="fulscreen-nav">
+                                <div class="fullscreen-nav-holder">
+                                    <div><a href="#1" class="turn-home">HOME</a></div>
+                                    <div><a href="/about">ABOUT ME</a></div>
+                                    <div><a href="/skills">SKILLS</a></div>
+                                    <div><a href="/portfolio">PORTFOLIO</a></div>
+                                    <div><a href="/contact">CONTACT</a></div>
+                                </div> <!-- full-nav-holder -->
+                            </div> <!-- fulscreen-nav -->
+                            <div class="full-nav-icon-holder">
+                                <div class="full-nav-icons">
+                                    <div><a href="https://www.facebook.com/ashikurt"><i
+                                            class="fa fa-facebook-f"></i></a></div>
+                                    <div><a href="https://www.linkedin.com/in/ashikurt77/"><i
+                                            class="fa fa-linkedin"></i></a></div>
+                                    <div><a href="https://github.com/ashikurt77"><i class="fa fa-github"></i></a></div>
+                                </div> <!-- full-nav-icons -->
+                            </div> <!-- full-nav-icon-holder -->
+                        </div> <!-- full-nav-content -->
+                    </div> <!-- full-nav-holder -->
+                </div> <!-- row -->
+            </div> <!-- container-fluid -->
+        </div>  <!-- /.fullscreen-nav-container -->
+    </div> <!-- header -->
+    <!-- =============================
+      1. End Header
+    =============================== -->
+
+    <!-- Scroll To Top Button -->
+    <a href="#1" class="scroll-up hvr-icon-up"></a>
+
+</div> <!-- /.all-container -->
+
+<!-- ============== Scripts ============== -->
+
+<!-- ============== Plugins ============== -->
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery-3.2.1.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/particles.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/particle-app.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/wow.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/text-animation.js')}}"></script>
+<!--<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>-->
+
+<!-- ============== Template Main Custom Script ============== -->
+<script type="text/javascript" src="{{ url_for('static', filename='js/home.js')}}"></script>
+</body>
+</html>
