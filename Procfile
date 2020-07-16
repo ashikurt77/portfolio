@@ -1,1 +1,1 @@
-web: gunicorn server:glacial-thicket-41178
+web: gunicorn server:app
