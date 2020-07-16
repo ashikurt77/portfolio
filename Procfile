@@ -1,1 +1,1 @@
-web: gunicorn portfolio.wsgi --log-file -
+web: gunicorn glacial-thicket-41178.wsgi --log-file -
