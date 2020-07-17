@@ -34,7 +34,7 @@ def send_mail(username, mail, message):
     email['from'] = mail
     email['to'] = 'ashikurt77@gmail.com'
     email['subject'] = f"{username} through tusher.herokuapp.com"
-    email.set_content(message)
+    email.set_content(f"{username} from {mail} says : {message}")
 
     with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
         smtp.ehlo()
